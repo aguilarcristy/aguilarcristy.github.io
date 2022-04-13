@@ -98,7 +98,7 @@ img {vertical-align: middle;}
 }
 
 @keyframes fade {
-  from {opacity: .90} 
+  from {opacity: .90}
   to {opacity: 1}
 }
 
@@ -134,12 +134,12 @@ are a reflection of this. Enjoy!
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="Franny.jpg.jpg" style="width:100%">
+  <img src="Franny.JPG" style="width:100%">
    <br>
   <br>
   <br>
   <br>
-  <div class="text:black">Procreate; Franny; 2160 x 1620 pixels 
+  <div class="text:black">Procreate; Franny; 2160 x 1620 pixels
 </div>
 </div>
 
@@ -150,7 +150,7 @@ are a reflection of this. Enjoy!
   <br>
   <br>
   <br>
-  <div class="text:black">Procreate; Celina; 2160 x 1620 pixels 
+  <div class="text:black">Procreate; Celina; 2160 x 1620 pixels
 </div>
 </div>
 
@@ -158,9 +158,9 @@ are a reflection of this. Enjoy!
 <br>
 
 <div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
 </div>
 
 <script>
@@ -172,14 +172,14 @@ function showSlides() {
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+    slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
+  if (slideIndex > slides.length) {slideIndex = 1}
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
@@ -188,4 +188,4 @@ function showSlides() {
 </body>
 <br>
 <br>
-</html> 
+</html>

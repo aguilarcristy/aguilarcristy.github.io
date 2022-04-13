@@ -104,7 +104,7 @@ img {vertical-align: middle;}
 }
 
 @keyframes fade {
-  from {opacity: .90} 
+  from {opacity: .90}
   to {opacity: 1}
 }
 
@@ -117,8 +117,10 @@ img {vertical-align: middle;}
 <body>
 <br>
 <h2>Blender Project: Kitchen </h2>
-<p><center>The following project was a rendering of a kitchen. This kitchen was inspired by an animatic and fictional character I designed while at De Anza Community College.
-To watch the animatic, click <a href="https://www.youtube.com/watch?v=x5atgYCUhro"> here
+<p><center>The following project was a rendering of a kitchen created in Blender. This kitchen was inspired by an animatic and fictional character I designed while at De Anza Community College.
+To watch the animatic, click <a href="https://www.youtube.com/watch?v=x5atgYCUhro"> here.</a>
+
+<p><center> The animatic deals with themes of motivation and how loved ones can fuel our energy and passion, when we are feeling hopeless.</p>
 
 </p>
 
@@ -149,9 +151,9 @@ To watch the animatic, click <a href="https://www.youtube.com/watch?v=x5atgYCUhr
 <br>
 
 <div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
 </div>
 
 <script>
@@ -163,14 +165,14 @@ function showSlides() {
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+    slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
+  if (slideIndex > slides.length) {slideIndex = 1}
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
@@ -179,4 +181,4 @@ function showSlides() {
 </body>
 <br>
 <br>
-</html> 
+</html>
